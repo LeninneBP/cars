@@ -1,6 +1,13 @@
 <template>
   <div id="app">
     <header class="header">
+        <img class="header__img" src="./assets/carro.png" />
+        <ul class="header_list">
+          <li class="header__list__itens">Galeria</li>
+          <li class="header__list__itens">Home</li>
+        </ul>
+
+
 
     </header>
   
@@ -35,10 +42,21 @@
 }
 .header{
   width: 100%;
-  height: 100px;
-  background-color: #000000;
-
-
-
+  height: auto;
+  background-color: #201f1f;
+  text-align: right;
+}
+.header__list{
+  list-style: none;
+  }
+.header__list__itens{
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 20px;
+  text-align: right;
+}
+.header__img{
+  max-width: 150px;
+  height: 120px;
 }
 </style>
