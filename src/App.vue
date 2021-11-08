@@ -16,7 +16,10 @@
   
       <div class="header__down">
       </div>
-    
+
+      <router-link to="/"/>
+      <router-link to="/galeria"/>
+      <router-view></router-view>
   </div>
 </template>
 
