@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import PrimeVue from 'primevue/config';
+import VueRouter from 'vue-router';
+import router from '../router';
+
 
 import Dialog from 'primevue/dialog';
 import Button from 'primevue/button';
@@ -14,11 +17,14 @@ import 'primeicons/primeicons.css'
 Vue.config.productionTip = false
 
 Vue.use(PrimeVue)
+Vue.use(VueRouter);
+
 
 Vue.component('Dialog', Dialog);
 Vue.component('Button', Button);
 Vue.component('ImagePreview', ImagePreview);
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')

@@ -2,33 +2,29 @@
   <div id="app">
     <header class="header">
         <img class="header__img" src="./assets/carro.png" />
-        <ul class="header_list">
-          <li class="header__list__itens">Galeria</li>
-          <li class="header__list__itens">Home</li>
-        </ul>
-
-
-
+        <div class="header__list">
+          <ul > 
+            <li class="header__list__itens">
+              <a href="/galeria">Galeria</a>
+            </li>
+            <li class="header__list__itens">
+              <a href="/">Home</a>
+            </li>
+          </ul> 
+        </div>
     </header>
   
-    <Home/>
+      <div class="header__down">
+      </div>
+    
   </div>
 </template>
 
 <script>
-// import Home from './components/home/Home.vue';
-
-// export default{
-
-//   name: 'Home',
-//   components:{
-//     'Home':  Home
-//   }
-// }
-
 </script>
-
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ceviche+One&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -41,22 +37,45 @@
   text-align: center;
 }
 .header{
+  display: flex;
   width: 100%;
   height: auto;
   background-color: #201f1f;
-  text-align: right;
+ align-items: center;
+
 }
 .header__list{
   list-style: none;
-  }
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  font-family:'Bebas Neue', cursive;
+  font-size: 20px;
+ }
 .header__list__itens{
   color: #ffffff;
   display: inline-block;
-  margin-right: 20px;
-  text-align: right;
+  margin-right: 30px; 
+  text-align:0ht; 
+  font-style: italic;
+
 }
 .header__img{
   max-width: 150px;
-  height: 120px;
+  height: auto;
 }
+.header__list__itens a{
+  color:#ffffff;
+  text-decoration: none;
+}
+.header__list__itens a:hover{
+  opacity: 0.8;
+}
+ .header__down{
+  width: 100%;
+  height: 25px;
+  background-color: #C6C6C6;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.9)
+} 
 </style>
