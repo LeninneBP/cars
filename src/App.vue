@@ -5,10 +5,10 @@
         <div class="header__list">
           <ul > 
             <li class="header__list__itens">
-              <a href="/galeria">Galeria</a>
+              <a href="/">Home</a>
             </li>
             <li class="header__list__itens">
-              <a href="/">Home</a>
+              <a href="/galeria">Galeria</a>
             </li>
           </ul> 
         </div>

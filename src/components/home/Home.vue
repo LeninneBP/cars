@@ -12,7 +12,13 @@
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/celsior.png"/><p/>Toyota Celsior</li>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/lancer.png"/><p/>Lancer Evo VII</li>
         </div>
+        <div class="baixo">
+
         </div>
+
+    
+    
+    </div>
 </template>
 <script>
 
