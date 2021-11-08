@@ -3,7 +3,7 @@
             <h1>Destaques</h1>
         
         <div>
-            <li class="destaques__list"><ImagePreview class="destaques_moldura" src="assets/carros/r33.png" alt="carro" preview/><p/>Skyline R33</li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/r33.png" alt="carro" /><p/>Skyline R33</li>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/supra.png"/><p/>Supra MK4</li>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/rx7.png"/><p/>Mazda Rx7</li>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/silvia_s14.png"/><p/>Silvia S14</li>
@@ -13,10 +13,6 @@
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/lancer.png"/><p/>Lancer Evo VII</li>
         </div>
         </div>
-
-
-
-
 </template>
 <script>
 
