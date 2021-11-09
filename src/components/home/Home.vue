@@ -3,7 +3,7 @@
             <h1>Destaques</h1>
         
         <div>
-            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/r33.png" alt="carro" /><p/>Skyline R33</li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/r33.png" alt="carro" /><p/><a class="destaques__link" href="/galeria">Skyline R33</a></li>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/supra.png"/><p/>Supra MK4</li>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/rx7.png"/><p/>Mazda Rx7</li>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/silvia_s14.png"/><p/>Silvia S14</li>
@@ -27,7 +27,7 @@
 </script>
 <style scoped>
 .destaques{
-    font-family: 'Bebas Neue', cursive;
+    
     font-style: italic;
     font-size: 15px;
     margin-top: 20px;
@@ -46,5 +46,12 @@
 .destaques__list{
     list-style: none;
     display: inline-block;
+}
+.destaques__link{
+  text-decoration: none;
+  color: #000000;
+}
+.destaques__link a:hover{
+  opacity: 0.8;
 }
 </style>

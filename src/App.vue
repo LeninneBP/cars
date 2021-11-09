@@ -31,7 +31,7 @@
 *{
   padding: 0;
   margin: 0;
-
+  font-family: 'Bebas Neue', cursive;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -53,7 +53,6 @@
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  font-family:'Bebas Neue', cursive;
   font-size: 20px;
  }
 .header__list__itens{
@@ -81,4 +80,7 @@
   background-color: #C6C6C6;
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.9)
 } 
+.destaeques__link{
+  text-decoration: none;
+}
 </style>
