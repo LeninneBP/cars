@@ -1,13 +1,12 @@
 <template>
     <div>
-        
         <h1 class="galeria__h1">Galeria</h1>
         <div>
             <Card class="card" >
             <template #header>
-                <img class="card__img" alt="user header" src="../../assets/carros/r33.png">
+                <img class="card__img" alt="user header" src="../../assets/carros/r33.png"/>
             </template>
-            <template class="card__title" #title>
+            <template  class="card__title" #title>
                 Nissan Skyline R33
             </template>
             <template class="card__subtitle" #subtitle>
@@ -17,6 +16,7 @@
                     Este motor produz uma potência máxima de 280 CV.</p>
             </template>
             </Card> 
+            <a href="#"><span class="pi pi-check"></span></a>
         </div>
     </div>
 </template>

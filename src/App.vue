@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="header">
-        <img class="header__img" src="./assets/carro.png" />
+        <a href="/"><img class="header__img" src="./assets/carro.png" /></a>
         <div class="header__list">
           <ul > 
             <li class="header__list__itens">

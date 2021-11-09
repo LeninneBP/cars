@@ -4,7 +4,7 @@
         
         <div>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/r33.png" alt="carro" /><p/><a class="destaques__link" href="/galeria">Skyline R33</a></li>
-            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/supra.png"/><p/><a class="destaques__link" href="/galeria">Supra MK4</a></li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/supra.png"/><p/>    <a class="destaques__link" href="/galeria">Supra MK4</a></li>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/rx7.png"/><p/>Mazda Rx7</li>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/silvia_s14.png"/><p/>Silvia S14</li>
             <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/370z.png"/><p/>Nissan 370z</li>

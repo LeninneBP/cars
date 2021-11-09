@@ -18,7 +18,7 @@ import 'primeicons/primeicons.css'
 Vue.config.productionTip = false
 
 Vue.use(PrimeVue)
-Vue.use(VueRouter);
+Vue.use(VueRouter); 
 
 Vue.component('Card', Card);
 Vue.component('Galleria', Galleria);
