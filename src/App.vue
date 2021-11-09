@@ -80,7 +80,5 @@
   background-color: #C6C6C6;
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.9)
 } 
-.destaeques__link{
-  text-decoration: none;
-}
+
 </style>
