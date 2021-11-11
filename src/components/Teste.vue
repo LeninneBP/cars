@@ -1,21 +1,20 @@
 <template>
     <div>
         <h1>teste</h1>
-        <div>
-            <ul id="teste">
-                <!-- <li v-for="residencias in residencia" :key="residencia.tipo">
-                    {{ residencia.tipo }}   
-                </li> -->
-            </ul>
-        </div>    
-        
-    </div>
+
+        <ul>
+            <!-- <li v-for="item in items" :key"item.message">
+                    {{ item.message }} -->
+            <!-- </li> -->
+        </ul>
+    </div>    
 </template>
 <script>
-var residencia = ['predio', 'casa', 'sobrado']
-console.log(residencia)
+// var carro = ["palio", "gol", "uno"];
+
+
 
 </script>
-<style scoped>
+<style>
 
 </style>
