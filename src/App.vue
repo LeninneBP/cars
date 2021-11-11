@@ -5,20 +5,21 @@
         <div class="header__list">
           <ul > 
             <li class="header__list__itens">
-              <a href="/">Home</a>
+           <router-link to="/"> Home</router-link>
             </li>
             <li class="header__list__itens">
-              <a href="/galeria">Galeria</a>
+               <router-link to="/galeria"> Galeria</router-link>
             </li>
+            <li>
+              <li class="header__list__itens">
+              <a href="/teste">teste</a>
+              </li>
           </ul> 
         </div>
     </header>
   
       <div class="header__down">
       </div>
-
-      <router-link to="/"/>
-      <router-link to="/galeria"/>
       <router-view></router-view>
   </div>
 </template>
