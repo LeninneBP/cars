@@ -3,14 +3,14 @@
             <h1>Destaques</h1>
         
         <div>
-            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/r33.png" alt="carro" /><p/><a class="destaques__link" href="/galeria">Skyline R33</a></li>
-            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/supra.png"/><p/><a class="destaques__link" href="/galeria">Supra MK4</a></li>
-            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/rx7.png"/><p/><a class="destaques__link" href="/galeria">Mazda Rx7</a></li>
-            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/silvia_s14.png"/><p/><a class="destaques__link" href="/galeria">Silvia S14</a></li>
-            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/370z.png"/><p/><a class="destaques__link" href="/galeria">Nissan 370z</a></li>
-            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/wrx.png"/><p/><a class="destaques__link" href="/galeria">Subaru Wrx</a></li>
-            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/celsior.png"/><p/><a class="destaques__link" href="/galeria">Toyota Celsior</a></li>
-            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/lancer.png"/><p/><a class="destaques__link" href="/galeria">Lancer Evo VII</a></li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/r33.png" alt="carro" /><p/><router-link class="destaques__link" to="/galeria">Skyline R33</router-link></li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/supra.png"/><p/><router-link class="destaques__link" to="/galeria">Supra MK4</router-link></li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/rx7.png"/><p/><router-link class="destaques__link" to="/galeria">Mazda Rx7</router-link></li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/silvia_s14.png"/><p/><router-link class="destaques__link" to="/galeria">Silvia S14</router-link></li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/370z.png"/><p/><router-link class="destaques__link" to="/galeria"> 370z</router-link></li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/wrx.png"/><p/><router-link class="destaques__link" to="/galeria">Subaru Wrx</router-link></li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/celsior.png"/><p/><router-link class="destaques__link" to="/galeria">Toyota Celsior</router-link></li>
+            <li class="destaques__list"><img class="destaques_moldura" src="../../assets/carros/lancer.png"/><p/><router-link class="destaques__link" to="/galeria">Lancer Evo VII</router-link></li>
         </div>
         <div class="baixo">
 
