@@ -1,19 +1,25 @@
 <template>
-    <div>
-        <h1>teste</h1>
+<div></div>
+        <!-- <ul>
+            <il v-for="item in linguagens" v-bind:key="item.nome">
+                {{ item.nome }}
+            </il>
+        </ul> -->
 
-        <ul>
-            <!-- <li v-for="item in items" :key"item.message">
-                    {{ item.message }} -->
-            <!-- </li> -->
-        </ul>
-    </div>    
 </template>
 <script>
-// var carro = ["palio", "gol", "uno"];
+// new Vue = {
+//     data: {
+//         linguagens: [
+//             { nome: 'javascript'},
+//             { nome: 'php'},
+//             { nome: 'C#'},
+//             { nome: 'java'}
+//           ]
+//     }
+// }
 
-
-
+console.log('data')
 </script>
 <style>
 

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import PrimeVue from 'primevue/config';
 import VueRouter from 'vue-router';
-import router from '../router';
+import router from './router/router';
 
 import Card from 'primevue/card';
 import Galleria from 'primevue/galleria';

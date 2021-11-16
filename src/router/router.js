@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from './src/components/home/Home.vue';
-import Galeria from './src/components/galeria/Galeria.vue';
-import Teste from './src/components/Teste.vue';
+import Home from '@/views/home/Home.vue';
+import Galeria from '@/views/galeria/Galeria.vue';
+import Teste from '@/components/Teste.vue';
 Vue.use(VueRouter)
 
 const routes = [
