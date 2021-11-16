@@ -12,7 +12,7 @@
             </li>
             <li>
               <li class="header__list__itens">
-              <a href="/teste">teste</a>
+                <a href="/teste">teste</a>
               </li>
           </ul> 
         </div>
@@ -32,7 +32,7 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', serif;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
