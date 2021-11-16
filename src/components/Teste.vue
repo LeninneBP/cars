@@ -4,7 +4,7 @@
             <il class="card__lista" v-for="carro in carros" v-bind:key="carro">
               <Card class="card" >
                 <template #header>
-                  <img class="card__img" alt="user header" src="../assets/carros/r33.jpg"/>
+                  <img class="card__img" alt="user header" src="../assets/carros/r33.jpg" />
                 </template>
                 <template  class="card__title" #title>
                   Nissan Skyline R33
