@@ -2,22 +2,26 @@
     <div>
         <h1 class="galeria__h1">Galeria</h1>
         <div>
+           
             <ul>
                 <il class="card__lista" v-for="carro in carros" v-bind:key="carro">
-              <Card class="card" >
-                <template #header>
-                  <img class="card__img" v-bind:alt="carro.nome" v-bind:src="carro.imagem" />
-                </template>
-                <template  class="card__title" #title>
-                  {{carro.nome}}
-                </template>
-                <template class="card__subtitle" #subtitle>
-                </template>
-                <template #content>
-                  <p class="card__p">{{ carro.descricao}}</p>
-                </template>
-              </Card>
-            </il>
+                    <Card class="card" >
+                        <template #header>
+                        <ImagePreview class="card__img" v-bind:alt="carro.nome" v-bind:src="carro.imagem" preview/>
+                        </template>
+                        <template  class="card__title" #title>
+                        {{carro.nome}}
+                        <Tag class="card__tag" severity="danger" v-bind:value="carro.tag" rounded></Tag>
+                        </template>
+                        <template class="card__subtitle" #subtitle>
+                        </template>
+                        <template #content>
+                        <ScrollPanel class="card__scroll"> 
+                                <p class="card__p">{{ carro.descricao}}</p>
+                        </ScrollPanel> 
+                        </template>
+                    </Card>
+                 </il>
             </ul>
         </div>
     </div>
@@ -30,42 +34,50 @@ export default{
                 {
                   nome:'R33', 
                   imagem:'https://1.bp.blogspot.com/-XYCVzAWUoc4/X5RGms_InuI/AAAAAAAAdCQ/Yw3MHByaa7k1rkhpiXpVNvQgRRY_MULbwCLcBGAsYHQ/s800/WdNqWVdBSF-kBNSoBEX28g.webp',
-                  descricao:'Com velocidade máxima de 250 km/h,um peso de 1530 kgs, o R33 Skyline GT-R está equipado com um motor Em linha de 6 cilindros turbocompressor, a Gasolina, com o código de motor RB26DETT. Este motor produz uma potência máxima de 280 CV.'
+                  descricao:'Com velocidade máxima de 250 km/h,um peso de 1530 kgs, o R33 Skyline GT-R está equipado com um motor Em linha de 6 cilindros turbocompressor, a Gasolina, com o código de motor RB26DETT. Este motor produz uma potência máxima de 280 CV.',
+                  tag: 'Japão'  
                 },
                 {
                   nome:'Supra',
                   imagem:'https://lh3.googleusercontent.com/-aTEEZLyGMRY/YIFPyx5GG1I/AAAAAAAAFDE/4K5bYJfxgTE0HWVo5yUmXd2pulZP_nVjgCLcBGAsYHQ/w1200-h630-p-k-no-nu/image.png',
                   descricao:' Com velocidade máxima de 250 km/h, um peso de 1585 kgs, o Supra IV 3.0i Turbo está equipado com um motor Em linha de 6 cilindros turbocompressor, a Gasolina, com o código de motor 2JZ-GTE.Este motor produz uma potência máxima de 330 CV.'
-                },
+                  ,tag: 'Japão'
+               },
                 {
                    nome:'RX7',
                    imagem:'http://pm1.narvii.com/7729/c3fa25f63c00f43f0d61ab7a8967b3bbd8cd3213r1-736-489v2_uhq.jpg', 
                    descricao:'Com velocidade máxima de 239 km/h,um peso de 1300 kgs, o Mazda RX-7 está equipado com um motor dois rotores, 1.308 cm3, a gasolina, biturbo. Este motor produz uma potência máxima de 255 CV.'
+                   ,tag: 'Japão'
                 },
                 {
                    nome:'Celsior',
                    imagem:'https://stancecars.com/wp-content/uploads/2020/06/first-class-japan-takahiro-fujiki-s-toyota-celsior.jpg', 
                    descricao:'Com velocidade máxima de 215 km/h,um peso de 2345 kgs, o Toyota Celsior está equipado com um motor 4.0 V8, 1.308 cm3, a gasolina, com o código de motor 1UZ-FE. Este motor produz uma potência máxima de 260 CV.'
+                    ,tag: 'Japão'
                 },
                 {
                    nome:'Lancer Evo',
                    imagem:'https://i.pinimg.com/originals/96/69/7e/96697ef35d09ed8c9855e82bd77e460b.jpg', 
                    descricao:'Com velocidade máxima de 228 km/h,um peso de 1590 kgs, o Mitsubishi Lancer Evo está equipado com um motor 2.0 16V, Turbo 4x4, a gasolina. Este motor produz uma potência máxima de 250 CV.'
+                   ,tag: 'Japão'               
                 },
                 {
                    nome:'Subaru WRX',
                    imagem:'https://cdn.aquelamaquina.pt/images/2019-01/img_1200x675$2019_01_15_11_48_34_135853.jpg', 
                    descricao:'Com velocidade máxima de 250 km/h,um peso de 1530 kgs, o Subaru WRX está equipado com um motor 2.5 Turbo, tração integrada, a gasolina, com o código do motor EJ257. Este motor produz uma potência máxima de 310 CV.'
+                   ,tag: 'Japão'
                 },
                 {
                    nome:'370z',
                    imagem:'https://lh3.googleusercontent.com/proxy/u5B64Nu59Duv_8F8NRIyxCWEhna9IUp8jJ6QFeTlMZhWLMHmBft03MpayxDG8eZAMoRl1Z2KoGtpdQmnkdJKl6TOpVg', 
                    descricao:'Com velocidade máxima de 250 km/h,um peso de 1496 kgs, o Nissan 370z está equipado com um motor V6 aspirado, a gasolina,. Este motor produz uma potência máxima de 328 CV.'
+                    ,tag: 'Japão'
                 },
                 {
                    nome:'Silvia s14',
                    imagem:'https://vistapointe.net/images/nissan-silvia-s14-1.jpg', 
                    descricao:'velocidade máxima de 235 km/h, um peso de 1240 kgs, o 200 SX S14 2.0 Turbo está equipado com um motor Em linha de 4 cilindros turbocompressor, a Gasolina, com o código de motor SR20DET.Este motor produz uma potência máxima de 200 CV'
+                   ,tag: 'Japão'
                 }
             ]
         }
@@ -94,13 +106,18 @@ export default{
 .card__p{
     color: #000000;
     font-style: italic;
+    /* overflow: scroll; */
 }
 .card__title{
     color: #000000;
     
 }
 .card__image{
-    width: 280px;
-    height: 188px;
+    width: 100%;
+    
+}
+.card__scroll{
+    width: 100%;
+    height: 100px;
 }
 </style>
