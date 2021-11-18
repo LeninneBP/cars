@@ -7,7 +7,7 @@
                 <il class="card__lista" v-for="carro in carros" v-bind:key="carro">
                     <Card class="card" >
                         <template #header>
-                        <ImagePreview class="card__img" v-bind:alt="carro.nome" v-bind:src="carro.imagem" preview/>
+                        <ImagePreview class="card__img" v-bind:alt="carro.nome" v-bind:src="carro.imagem" heigth="100" preview />
                         </template>
                         <template  class="card__title" #title>
                         {{carro.nome}}
@@ -16,7 +16,7 @@
                         <template class="card__subtitle" #subtitle>
                         </template>
                         <template #content>
-                        <ScrollPanel class="card__scroll"> 
+                        <ScrollPanel style="width: 100%; height: 100px">
                                 <p class="card__p">{{ carro.descricao}}</p>
                         </ScrollPanel> 
                         </template>
@@ -119,5 +119,14 @@ export default{
 .card__scroll{
     width: 100%;
     height: 100px;
+
+}
+p {
+        padding: .5rem;
+        line-height: 1.5;
+        margin: 0;
+    }
+.custombar1 {
+        
 }
 </style>
