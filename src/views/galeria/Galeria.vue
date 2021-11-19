@@ -98,15 +98,15 @@ export default{
                 {
                     nome: 'Charger Hellcat',
                     imagem: 'https://www.planetcarsz.com/assets/uploads/2019/06/DODGE%20CHARGER%20SRT%20HELLCAT%20OCTANE%202019%2001.jpg',
-                    descricao:'',
+                    descricao:'velocidade máxima de 328 km/h, um peso de 2075 kgs, Charger Hellcat está equipado com um motor V8, a Gasolina.Este motor produz uma potência máxima de 717 CV',
                     tag: 'U.S.A'
                     ,cor_tag: 'info'
 
                 },
                 {
-                    nome: 'Challenger Hellcat',
-                    imagem: 'https://directimports.com.br/wp-content/uploads/2021/09/Dodge-Challenger-Coupe-Hellcat-Widebody-6.jpg',
-                    descricao:'',
+                    nome: 'Challenger SRT Demon',
+                    imagem: 'https://www.planetcarsz.com/assets/uploads/2018/10/55e0c4427f413a82a6ab51fd40987b56.jpg',
+                    descricao:'velocidade máxima de 326 km/h, um peso de 2018 kgs, o Dodge Challenger SRT Demon está equipado com um motor V8 , a Gasolina, com o código de motor HEMI Demon V8.Este motor produz uma potência máxima de 840 CV',
                     tag: 'U.S.A'
                     ,cor_tag: 'info'
 
