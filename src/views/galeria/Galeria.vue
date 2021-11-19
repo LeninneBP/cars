@@ -83,7 +83,7 @@ export default{
                 },
                 {
                    nome:'370z',
-                   imagem:'https://lh3.googleusercontent.com/proxy/u5B64Nu59Duv_8F8NRIyxCWEhna9IUp8jJ6QFeTlMZhWLMHmBft03MpayxDG8eZAMoRl1Z2KoGtpdQmnkdJKl6TOpVg', 
+                   imagem:'https://lh3.googleusercontent.com/proxy/-9lAlEJ4els7AZtpF18wy1Rtz13unx3NEgQ0zSs8qWg3U611JDcWyZfjrKNkYtRIoTY5EAkUmcuyVEjjaKv3ZbtV78o', 
                    descricao:'Com velocidade máxima de 250 km/h,um peso de 1496 kgs, o Nissan 370z está equipado com um motor V6 aspirado, a gasolina,. Este motor produz uma potência máxima de 328 CV.'
                     ,tag: 'Japão'
                     ,cor_tag: 'danger'
@@ -112,14 +112,10 @@ export default{
 
                 }
             ]
-
        }
     }
-}
-
-    
+} 
 </script>
-
 <style scoped>
 .galeria__h1{
     
@@ -143,17 +139,13 @@ export default{
     /* overflow: scroll; */
 }
 .card__title{
-    color: #000000;
-    
+    color: #000000;   
 }
 .card__image{
-    width: 100%;
-    
+    width: 100%; 
 }
 .card__scroll{
     width: 100%;
     height: 100px;
-
 }
-
 </style>
