@@ -4,6 +4,7 @@ import PrimeVue from 'primevue/config';
 import VueRouter from 'vue-router';
 import router from './router/router';
 
+import Paginator from 'primevue/paginator';
 import Card from 'primevue/card';
 import Galleria from 'primevue/galleria';
 import Dialog from 'primevue/dialog';
@@ -11,6 +12,7 @@ import Button from 'primevue/button';
 import ImagePreview from 'primevue/imagepreview';
 import ScrollPanel from 'primevue/scrollpanel';
 import Tag from 'primevue/tag';
+import Rating from 'primevue/rating';
 
 import 'primevue/resources/themes/saga-blue/theme.css';
 import 'primevue/resources/primevue.min.css';
@@ -21,6 +23,8 @@ Vue.config.productionTip = false;
 Vue.use(PrimeVue);
 Vue.use(VueRouter); 
 
+Vue.component('Paginator', Paginator);
+Vue.component('Rating', Rating);
 Vue.component('Tag', Tag);
 Vue.component('Card', Card);
 Vue.component('Galleria', Galleria);

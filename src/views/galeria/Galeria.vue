@@ -19,11 +19,15 @@
                         <template #content>
                         <ScrollPanel style="width: 100%; height: 100px">
                                 <p class="card__p">{{ carro.descricao}}</p>
-                        </ScrollPanel> 
+                        </ScrollPanel> <br>
+                            <!-- <Rating v-model="val2"  :cancel="false" /> -->
                         </template>
                     </Card>
                  </il>
             </ul>
+        </div>
+        <div class="paginator">
+            <Paginator :rows="5" :totalRecords="totalRecords" :rowsPerPageOptions="[5,10,15]"></Paginator>
         </div>
     </div>
 </template>
@@ -31,6 +35,9 @@
 export default{
     data() {
         return {
+            // val1: 5,
+            // val2: 5,
+
             carros: [
                 {
                   nome:'R33', 
@@ -105,10 +112,12 @@ export default{
 
                 }
             ]
-        }
+
+       }
     }
 }
 
+    
 </script>
 
 <style scoped>
