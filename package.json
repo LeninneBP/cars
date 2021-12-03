@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "firebase": "^9.6.0",
     "primeicons": "^5.0.0",
     "primevue": "^2.6.0",
     "vue": "^2.6.11",

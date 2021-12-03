@@ -13,17 +13,20 @@
             <li class="destaques__list"><img class="destaques_moldura" src="https://i.pinimg.com/originals/96/69/7e/96697ef35d09ed8c9855e82bd77e460b.jpg"/><p/><router-link class="destaques__link" to="/galeria">Lancer Evo VII</router-link></li>
         </div>
         <div class="baixo">
-
         </div>
-
-    
-    
     </div>
 </template>
 <script>
 
+import {firebaseApp} from '@/firebase/firebase-app.js';
+export default {
 
-
+mounted: () => {
+    console.log(firebaseApp)
+    console.log(firebaseApp.storage())
+    }
+}
+// let storage = firebase.storage();
 </script>
 <style scoped>
 .destaques{
